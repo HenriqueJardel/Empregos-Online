@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="center"
+        android:text="Empregos"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="75dp"></ListView>
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="262dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/black"
+        app:backgroundTint="@color/deepskyblue" />
+
+</RelativeLayout>
